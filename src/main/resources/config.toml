@@ -1,0 +1,20 @@
+# Simple doucmentation on configs =
+# Start = starting hours of a type ( 1 means 1 hour ban first time)
+# Multiply = every time ban hours is multiplied by multiply config ( start =1 | multiply =2 means => first 1hour | second 1 * 2hours | third 1*3hours ...)
+# Max = every time start gets multiplied, so max is actually an endpoint and we wouldnt multiply and go above max
+[PVP]
+start = 1
+multiply = 2
+max = 48
+[PLAYER]
+start = 2
+multiply = 2
+max = 48
+[MOVE]
+start = 3
+multiply = 2
+max = 48
+[FLY]
+start = 4
+multiply = 2
+max = 48
